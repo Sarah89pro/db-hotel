@@ -60,4 +60,4 @@ WHERE `ospite_id` <> '';
 9. Quanti posti letto ha l’hotel in totale?
 
 SELECT SUM(`beds`) AS `posti_letto`
-FROM `stanze`
+FROM `stanze`;
